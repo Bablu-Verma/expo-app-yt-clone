@@ -43,11 +43,12 @@ The app uses **static JSON data** (no API calls) and focuses entirely on buildin
 
 ## 📱 Screens Built
 
-|  #  |      Screen      |          File           | Description                                                                                                                  |
-| :-: | :--------------: | :---------------------: | :--------------------------------------------------------------------------------------------------------------------------- |
-|  1  |     **Home**     |    `HomeScreen.tsx`     | YouTube home feed with header, category tabs, video list, skeleton loading, pull-to-refresh                                  |
-|  2  |    **Search**    |   `SearchScreen.tsx`    | Search with debouncing, recent searches, trending searches, suggestions, video results                                       |
-|  3  | **Video Detail** | `VideoDetailScreen.tsx` | Video player (expo-av), title, like/dislike, share, download, channel info, subscribe, description, comments, related videos |
+|  #  |       Screen        |          File           | Description                                                                                                                                                                                                                                                                                                     |
+| :-: | :-----------------: | :---------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1  |      **Home**       |    `HomeScreen.tsx`     | YouTube home feed with header, category tabs, video list, skeleton loading, pull-to-refresh                                                                                                                                                                                                                     |
+|  2  |     **Search**      |   `SearchScreen.tsx`    | Search with debouncing, recent searches, trending searches, suggestions, video results                                                                                                                                                                                                                          |
+|  3  |  **Video Detail**   | `VideoDetailScreen.tsx` | Video player (expo-av), title, like/dislike, share, download, channel info, subscribe, description, comments, related videos                                                                                                                                                                                    |
+|  4  | **Explore Sidebar** |  `ExploreSidebar.tsx`   | Left slide-in drawer on Explore (compass) icon click — includes YouTube logo header, Trending, Music, Gaming, News, Sports, Learning, Fashion & Beauty, Settings, Help & Feedback links with icons, app version info in footer, dark/light theme support, smooth open/close animation, overlay backdrop dismiss |
 
 ---
 
